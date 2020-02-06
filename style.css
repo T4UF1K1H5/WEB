@@ -1,0 +1,171 @@
+ body{
+ 	margin-bottom: 0;
+ 	height: 695px;
+ }
+ .background {
+	background-image: url(images/indexbg.jpg);
+	background-size: cover;
+	height: 695px;
+	text-align: center;
+
+}
+.subjudul h1 {
+	margin-top: 225px;
+	margin-right: 50px;
+	width: 95%;
+	height: 150px;
+	color:white;
+	position: absolute;
+}
+.konten{
+	height: 100px;
+	width: 100%;
+	position: relative;
+	top: 320px;
+}
+.konten p{
+	color: white;
+	height: 10px;
+}
+.cari .btn{
+	margin-top: 700px;
+	background-color: red;
+	margin-top: 315px;
+	border-radius: 10px;
+}
+.navbar .collapse .nav-link{
+	color: #000;
+}
+.dropdown-menu .dropdown-item:hover{
+	background-color: red;
+	color: white;
+}
+.nav-item img{
+	width: 30px;
+	height: 30px;
+}
+.container .signup{
+	margin-top: 100px;
+}
+#artikel{
+	margin-top: 150px;
+}
+#artikel img{
+	width: 300px;
+	height: 200px;
+	float: left;
+}
+.clear{
+	clear: left;
+}
+.kosong{
+	width: 100%;
+	height: 200px;
+}
+.pagination{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+}
+.pagination a{
+  margin: 6px 1px;
+  display: inline-block;
+  width: 60px;
+  background: #2c3e50;
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.3s;
+  position: relative;
+  padding-right: 26px;
+}
+.prev,.next{
+  padding-right: 12px !important;
+  font-size: 20px;
+}
+.pagination a:hover{
+  color: #e74c3c;
+}
+.active{
+  color: #e74c3c !important;
+}
+.prev{
+  border-radius: 30px 0 0 30px;
+}
+.next{
+  border-radius: 0 30px 30px 0;
+}
+.pagination a::before,.pagination a:after{
+  content: "";
+  position: absolute;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+}
+.num::before,.next::before{
+  border-right: 20px solid #2c3e50;
+  right: 100%;
+}
+.num:after,.prev:after{
+  border-right: 20px solid #f1f1f1;
+  right: 0;
+}
+.peta{
+	margin-top: 100px;
+}
+.ikon .fa-facebook{
+	color: #287be0;
+}
+.ikon .fa-instagram{
+	color: #e34dc5
+}
+.ikon .fa-twitter{
+ 	color: #477eed
+}
+.ikon .fa-line{
+	color: #28e041;
+}
+.ikon .fa-telegram{
+	color: #1660f5
+}
+.ikon .fa-whatsapp{
+	color: #1aab2d;
+}	
+.ikon .fab:hover{
+	transform: rotate(360deg);
+	transition-duration: .5s;
+	transition-timing-function: ease-in-out;
+}
+.dash{
+	margin-top: 24px;
+	position: fixed;
+	width: 100%;
+}
+.dash a{
+	color:#bec9cc;
+}
+.dash a:hover{
+	color: #cc0a23;
+	background-color: #9ea2a3;
+}
+#dash-b a{
+	color: #cc0a23;
+	background-color: #9ea2a3;	
+}
+#br a {
+	color: #cc0a23;
+	background-color: #9ea2a3;
+}
+#da a {
+	color: #cc0a23;
+	background-color: #9ea2a3;
+}
+.pagination{
+	margin-top: 220px;
+	margin-left: auto;
+}
+table{
+	text-align: center;
+}

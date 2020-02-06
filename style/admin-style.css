@@ -1,0 +1,30 @@
+.nav-item img{
+    width: 30px;
+    height: 30px;
+}
+.navbar .collapse .nav-link{
+    color: #f50000;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: red;
+    color: white;
+}
+.navbar .collapse .nav-link{
+    color: #f50000;
+}
+.log-adm {
+    margin-top: -77px;
+}
+.card {
+    position: fixed;
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    border-color: red;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    height: 80%;
+}
+
